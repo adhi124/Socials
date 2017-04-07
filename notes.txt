@@ -1,0 +1,28 @@
+Coding Issues:
+Adding variables to database one by one. Tried to use object to add but then I would need to implement serializable which was returning errors so in the end I decided to use a hashmap to upload everything do firebase. TODO: switch to object adding.
+Some issues with app crashing on sign in, etc. Fixed issue where pressing back button after signing out would sign user back into the app and then crash the app.
+
+Design issues:
+Lack of splash screen - added in this version
+Wallpaper dimensions were very streched
+The current mdb logo image itself does not look very good as a background
+Personally I like the cards but tweaked the borders and colors on those
+Added scrollview to signup screen and add social screen to accomodate for large images
+
+Dribbble designs:
+Login screen with background
+https://dribbble.com/shots/3372253-Thespis-com-login-screen
+Splash Login screen/ Signup screen with splash color/page
+https://dribbble.com/shots/3248695-Login-Screen
+Very pretty login screen + Splash screen
+https://dribbble.com/shots/3354720-Login-splash-screen-ZAD-App-iOS
+Use old MDB logo - looks good in a splash screen design + fits well into imageview
+Cardview with leading image + details
+https://dribbble.com/shots/3296912-Landing-page
+Image + icon + title cardview and cardview animation
+https://dribbble.com/shots/3160052-Random-Trivia-Generator-App-Announcement
+
+Design notes:
+Decided to use cardview design with prominent image and combined it with the image + title cardview
+old MDB logo
+Login screen with splash design - used primary color from previous iteration and added layout with border for login views
